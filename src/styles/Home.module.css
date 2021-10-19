@@ -418,12 +418,13 @@ Message Box
   z-index: 1;
   top: 9px;
   right: 10px;
-  color: #fff;
+  color: rgb(111, 107, 107);
   border: none;
-  background: #0aa0b4;
-  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+  background: #00DDEB;
+  /* background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB); */
   font-size: 12px;
   text-transform: uppercase;
+  font-weight: 700;
   line-height: 1;
   padding: 8px 12px;
   border-radius: 10px;
@@ -432,7 +433,7 @@ Message Box
 }
 
 .messageBox .messageSubmit:hover {
-  background: #09d6f1;
+  background: #09e9de;
   color: rgb(55, 54, 54)
 }
 
