@@ -17,109 +17,6 @@
   align-items: center;
 }
 
-.footer {
-  width: 100%;
-  height: 100px;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
 @mixin center {
   position: absolute;
   top: 50%;
@@ -150,7 +47,7 @@ Body
   top: 0;
   left: 0;
   z-index: 1;
-  background: url("https://res.cloudinary.com/drqezhb6l/image/upload/v1634615359/pexels-yan-krukov-8866795_w2ngww.jpg") no-repeat 0 0;
+  background: url("https://res.cloudinary.com/drqezhb6l/image/upload/v1624055853/Logo0_suodur.svg") no-repeat 0 0;
   filter: blur(80px);
   transform: scale(1.2);
 }
@@ -170,7 +67,7 @@ Chat
   overflow: hidden;
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
   background: rgba(34, 64, 197, 0.432);
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -421,13 +318,12 @@ Message Box
   color: rgb(111, 107, 107);
   border: none;
   background: #00DDEB;
-  /* background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB); */
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1;
   padding: 8px 12px;
-  border-radius: 10px;
+  border-radius: 3px;
   outline: none !important;
   transition: background 0.2s ease;
 }
